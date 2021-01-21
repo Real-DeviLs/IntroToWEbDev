@@ -56,7 +56,7 @@ Find all the code uncovered in Bootcamo here :
 
 |S.No.|Day 1 |
 |----|-----|
-|1.|[link](#)|
+|1.|[link](/day1)|
 
 
 |S.No.|Day 2 |
