@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Day2 CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<style>
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+	
+	<li class="logo">LOGO</li>
+  <li><a href="#">Link</a></li>
+  <li><a href="#">Link</a></li>
+</div>
+
+<div class="mid">
+	<div style="background-color: rgba(0,0,0,0.4); height: 500px;">
+	<h1>Some Text</h1>
+</div>
+	</div>
+
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+   <div class="card-img" style="background-image: url('product.jpeg');"></div>
+      <h3>Card 1</h3>
+      <button onclick="addToCart(1,'p1',250);">Click</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+    	 <div class="card-img" style="background-image: url('product.jpeg');"></div>
+      <h3>Card 2</h3>
+      <button onclick="addToCart(2,'p2',250);">Click</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+    	 <div class="card-img" style="background-image: url('product.jpeg');"></div>
+      <h3>Card 3</h3>
+      <button onclick="addToCart(3,'p3',250);">Click</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+    	 <div class="card-img" style="background-image: url('product.jpeg');"></div>
+      <h3>Card 4</h3>
+      <button onclick="addToCart(4,'p4',250);">Click</button>
+    </div>
+  </div>
+</div>
+
+<table id="cart" border="1" style="visibility:hidden; width:100%">
+  <thead>
+      <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Qty</th>
+          <th>Total</th>
+          <th>Delete</th>
+          <th>+</th>
+          <th>-</th>
+      </tr>
+  </thead>
+  <tbody id="cartBody">
+
+  </tbody>
+  
+</table>
+<a href="form.html" id="checkoutButton">
+  <button>Checkout</button>
+</a>
+
+
+
+
+<div class="footer">
+  <h1>Footer</h1>
+</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+
+<script src="cart.js"></script>
+</body>
+
+
+
+
+</html>
+
+
+
+
+
