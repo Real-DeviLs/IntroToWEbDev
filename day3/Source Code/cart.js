@@ -6,6 +6,10 @@ window.onload = function loaded(){
         cart = JSON.parse(localStorage.cart);
         showCart();
     }
+    if(! localStorage.cart)
+        document.getElementById("checkoutButton").style.visibility='hidden';
+
+
 
 }
 
