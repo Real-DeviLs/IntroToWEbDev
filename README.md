@@ -65,6 +65,6 @@ Find all the code uncovered in Bootcamo here :
 
 |S.No.|Day 3 |
 |----|-----|
-|1.|[link](#)|
+|1.|[link](/day3/Source%20Code)|
 
 <hr>
