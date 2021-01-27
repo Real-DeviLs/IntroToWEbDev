@@ -50,10 +50,10 @@ function myFunction() {
 function sendEmail(rec,content, subject) {
     Email.send({
         Host: "smtp.gmail.com",
-        Username: "ludhianatechcom@gmail.com",
-        Password: "fvmozldcqazvgtim",
+        Username: "smtpswithjs@gmail.com",
+        Password: "eglpqepvetyzpmzn",
         To: rec,
-        From: "ludhianatechcom@gmail.com",
+        From: "smtpswithjs@gmail.com",
         Subject: subject,
         Body: content,
     }).then(
